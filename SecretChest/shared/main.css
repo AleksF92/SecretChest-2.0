@@ -1,0 +1,45 @@
+.carousel-caption {
+	background-color: rgba(0, 0, 0, 0.75);
+}
+
+.carousel-indicators {
+	margin-bottom: -50px;
+}
+
+.carousel-indicators li {
+	background-color: black;
+	border-color: black;
+}
+
+.carousel-indicators li.active {
+	background-color: white;
+	border-color: white;
+}
+
+body {
+	background-image: url("../img/background.png");
+}
+
+h2 {
+	color: white;
+}
+
+.videos {
+	margin-top: 20px;
+}
+
+.featuredVideos p {
+	color: black;
+}
+
+.featuredVideos a:hover {
+	color: white;
+}
+
+.featuredVideos a:hover p {
+	color: white;
+}
+
+.featuredVideos img {
+	max-width: 320px;
+}
