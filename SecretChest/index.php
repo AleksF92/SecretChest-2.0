@@ -17,7 +17,7 @@
 
 			<div class="carousel-inner" role="listbox">
 				<?php
-					$articles = $DB->query("SELECT id, thumbnail, title, intro FROM article");
+					$articles = $DB->query("SELECT id, thumbnail, title, intro FROM article ORDER BY id DESC LIMIT 5");
 					for ($i = 0; $i < 5; $i++) {
 						//Retrive article data
 						$aData = $articles->fetch_row();
