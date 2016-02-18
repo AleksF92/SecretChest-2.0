@@ -1,7 +1,16 @@
-#######
+#Enable backend url rewriting
+Options +FollowSymLinks
+RewriteEngine On
+RewriteBase /SecretChest/
+
+#Route articles
+#RewriteCond %{REQUEST_FILENAME} !-d
+#RewriteCond %{REQUEST_FILENAME} !-f
+RewriteRule ^artikkel/(.*)$ ./article.php?linkId=$1 [L]
+RewriteRule ^skriv-artikkel/(.*)$ ./create-article.php?linkId=$1 [L]
+RewriteRule ^youtube/(.*)$ ./youtube.php?videoId=$1 [L]
+
 #Allow PHP/HTML pages to load without the filename extension
-######
-RewriteEngine on
 RewriteCond %{REQUEST_FILENAME} !-d
 RewriteCond %{REQUEST_FILENAME}\.php -f
 RewriteRule ^(.*)$ $1.php

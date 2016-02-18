@@ -3,7 +3,7 @@
 -- http://www.phpmyadmin.net
 --
 -- Host: 127.0.0.1
--- Generation Time: 12. Feb, 2016 20:48 p.m.
+-- Generation Time: 18. Feb, 2016 21:49 p.m.
 -- Server-versjon: 5.6.17
 -- PHP Version: 5.5.12
 
@@ -48,7 +48,7 @@ INSERT INTO `article` (`id`, `linkId`, `thumbnail`, `title`, `intro`, `content`,
 (2, 'rise-of-the-tomb-raider', 'img/article/rise-of-the-tomb-raider-thumbnail.png', 'Rise of the Tomb Raider', 'Denne gangen har Square Enix gått sammen med Nvidia istedenfor AMD...', '', '2016-02-06 20:01:19', 1),
 (3, 'har-du-en-rancher-i-blodet', 'img/article/slime-rancher-thumbnail.png', 'Har du en Rancher i blodet?', 'Av alle ideer så er dette den mest GOSSINE på lenge!', '', '2016-02-06 20:01:19', 1),
 (4, 'na-kommer-oculus-rift', 'img/article/oculus-thumbnail.png', 'Nå kommer Oculus Rift!', 'Sammen med selve riften får du også følgende...', '', '2016-02-06 20:01:19', 1),
-(5, 'hearthstone-far-en-reset', 'img/article/hearthstone-thumbnail.png', 'Hearthstone får en reset!', 'Nå skal mange kort i Hearthstone fjernes fra normalt spill. Dette er for å gi en ny start og ferskt innhold i spillet.</br>Les mer vi tror det påvirker spillet...', '', '2016-02-06 20:01:19', 1);
+(5, 'hearthstone-far-en-reset', 'img/article/hearthstone-thumbnail.png', 'Hearthstone får en reset!', 'Nå skal mange kort i Hearthstone fjernes fra normalt spill. Dette er for å gi en ny start og ferskt innhold i spillet.</br>Les mer vi tror det påvirker spillet...', '<section class="entry-content clearfix">\r\n									<p>Virtual Reality har i de siste årene fått mye hype!<br>\r\nI starten av 2015 fikk også YouTube støtte for 360-graders videoer, hvor du kan snu kameraet rundt som du vil. Dette er noe vi ikke så for oss at ville bli støttet på YouTube før om lang tid. Og har heller ikke fått den annonseringen det fortjener…</p>\r\n<p>Men nå på Comic-Con 2015&nbsp;har Legendary, produsenten av bla. Warcraft-filmen som vi alle gleder oss til, gitt oss en snikktitt inn i den nydelige fremtiden! Nedenfor er et klipp som er inspirert av Warcraft-filmen. Hvor du flyr over byen Stormwind og kan kikke deg rundt med å holde museknappen inne.<br>\r\n<strong>(Anbefaler å prøve å se denne videoen på telefonen din hvis du har Android eller iOS for da kan du nemlig bare bevege den rundt deg for å bytte vinkel. Helt magisk!)</strong></p>\r\n<p><span class="embed-youtube" style="text-align:center; display: block;"><iframe class="youtube-player" type="text/html" width="800" height="480" src="http://www.youtube.com/embed/K_J8k43gUhY?version=3&amp;rel=1&amp;fs=1&amp;autohide=2&amp;showsearch=0&amp;showinfo=1&amp;iv_load_policy=1&amp;wmode=transparent" frameborder="0" allowfullscreen="true"></iframe></span></p>\r\n<p>Vi venter fortsatt i spenning på den offisielle&nbsp;traileren til Warcraft-filmen, men siden det meste av produksjonen av filmen faktisk er ferdig er det ikke sikkert det er så utrolig lenge før vi får se noe til den. (Selv om magefølelsen sier at dette kanskje er noe de har lyst til å vente med til årets BlizzCon!)</p>\r\n																		<div class="clr"></div>\r\n								</section>', '2016-02-06 20:01:19', 1);
 
 -- --------------------------------------------------------
 
