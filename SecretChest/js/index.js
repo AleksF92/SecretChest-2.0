@@ -1,4 +1,5 @@
-var apiKey = "AIzaSyByzTffAPDBRASXJbvSVuqw6u1AIdFbjos";
+//var apiKey = "AIzaSyByzTffAPDBRASXJbvSVuqw6u1AIdFbjos";
+var apiKey = "AIzaSyALRD1n1KURCLqUIu_64ij5_KetssbkNbo";
 
 $(document).ready(function() {
 	//Start the carousel slide

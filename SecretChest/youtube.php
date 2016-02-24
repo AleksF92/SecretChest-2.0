@@ -12,18 +12,17 @@
 		<div class="container">
 			<a href=""><img src="img/title-banner.png" width="100%"></a>
 
+			<div class="row title">
+				<!-- Filled with JS -->
+			</div>
 			<div class="row video">
-				<div class="embed-responsive embed-responsive-16by9">
-					<?php
-						$vLink = "https://www.youtube.com/embed/" . $_GET["videoId"];
-						echo "<iframe class='embed-responsive-item' src='" . $vLink . "'></iframe>";
-					?>
-				</div>
+				<!-- Filled with JS -->
 			</div>
 		</div>
 
 		<!-- Scripts -->
 		<script type="text/javascript" src="js/jquery.js"></script>
 		<script type="text/javascript" src="js/bootstrap.js"></script>
+		<script type="text/javascript" src="js/youtube.js"></script>
 	</body>
 </html>
