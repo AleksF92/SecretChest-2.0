@@ -22,27 +22,26 @@ body {
 
 h1 {
 	color: white;
-	*font-size: 5vw;
 }
 
 h2 {
 	color: white;
-	*font-size: 4vw;
 }
 
 h3 {
 	color: white;
-	*font-size: 3vw;
 }
 
 p {
 	color: white;
-	*font-size: 2vw;
 }
 
 label {
 	color: white;
-	*font-size: 2vw;
+}
+
+textarea {
+	resize: vertical;
 }
 
 .videos {
@@ -63,13 +62,4 @@ label {
 
 .featuredVideos img {
 	max-width: 320px;
-}
-
-.input-title {
-	width: 100%;
-}
-
-.title input, .upload input, .content input, .finish input {
-	width: 100%;
-	resize: vertical;
 }

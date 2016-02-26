@@ -1,28 +1,42 @@
-<!DOCTYPE html>
+<?php
+	//Include logic
+	include_once("logic/create-article.php");
 
-<html>
-	<head>
-		<base href="../">
-		<?php
-			include_once("html/head.php");
-			include_once("logic/create-article.php");
-		?>
-		<!-- Make sure the path to CKEditor is correct. -->
-        
-	</head>
-	<body>
-		<div class="container">
-			<a href=""><img src="img/title-banner.png" width="100%"></a>
+	//Include html
+	include_once("html/head.php");
+?>
 
-			<div class="row artikkel">
-				<?php Load_Article(); ?>
+<div class="container">
+	<a href=""><img src="img/title-banner.png" width="100%"></a>
+
+	<div class="artikkel">
+		<form action="" method="post" enctype="multipart/form-data">
+			<div class="form-group">
+				<label>Tittel:</label>
+				<input type="text" placeholder="Skriv inn tittel..." value="<?php echo Get_Title(); ?>" class="form-control" name="title">
 			</div>
-		</div>
 
-		<!-- Scripts -->
-		<script type="text/javascript" src="js/jquery.js"></script>
-		<script type="text/javascript" src="js/bootstrap.js"></script>
-		<script type="text/javascript" src="ckeditor/ckeditor.js"></script>
-		<script type="text/javascript" src="js/create-article.js"></script>
-	</body>
-</html>
+			<div class="form-group">
+				<label>Filer:</label>
+				<input type="file" class="form-control" name="upload">
+			</div>
+
+			<div class="form-group">
+				<label>Innhold:</label>
+				<textarea rows="10" placeholder="Legg til innhold til artikkelen her..." class="form-control" name="content"><?php echo Get_Content(); ?></textarea>
+			</div>
+
+			<div class="form-group">
+				<label>Innstillinger:</label>
+				<p><input type="checkbox" name="public"> Publisert?</p>
+			</div>
+
+			<div class="form-group">
+				<button class="btn btn-default">Lagre</button>
+				<button class="btn btn-default">Forhåndsvisning</button>
+			</div>
+		</form>
+	</div>
+</div>
+
+<?php include_once("html/footer.php"); ?>

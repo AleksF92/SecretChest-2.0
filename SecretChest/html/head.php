@@ -1,13 +1,21 @@
-<!-- Website title -->
-<title>Secret Chest</title>
+<!DOCTYPE html>
+<html lang="nb">
+	<head>
+		<!-- Root directory -->
+		<base href="http://secretchest.com/">
 
-<!-- Meta -->
-<meta charset="utf-8-no">
-<meta name="viewport" content="width=device-width, initial-scale=1">
+		<!-- Website title -->
+		<title>Secret Chest</title>
 
-<!-- Favorite icon -->
-<link rel="icon" type="image/x-icon" href="img/favicon.png">
+		<!-- Meta -->
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
 
-<!-- CSS includes -->
-<link rel="stylesheet" type="text/css" href="css/bootstrap.css">
-<link rel="stylesheet" type="text/css" href="css/global.css">
+		<!-- Favorite icon -->
+		<link rel="icon" type="image/x-icon" href="img/favicon.png">
+
+		<!-- CSS includes -->
+		<link rel="stylesheet" type="text/css" href="css/bootstrap.css">
+		<link rel="stylesheet" type="text/css" href="css/global.css">
+	</head>
+	<body>

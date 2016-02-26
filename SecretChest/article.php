@@ -1,24 +1,17 @@
-<!DOCTYPE html>
+<?php
+	//Include logic
+	include_once("logic/article.php");
 
-<html>
-	<head>
-		<base href="../">
-		<?php
-			include_once("html/head.php");
-			include_once("logic/article.php");
-		?>
-	</head>
-	<body>
-		<div class="container">
-			<a href=""><img src="img/title-banner.png" width="100%"></a>
+	//Include html
+	include_once("html/head.php");
+?>
 
-			<div class="row artikkel">
-				<?php Load_Article(); ?>
-			</div>
-		</div>
+<div class="container">
+	<a href=""><img src="img/title-banner.png" width="100%"></a>
 
-		<!-- Scripts -->
-		<script type="text/javascript" src="js/jquery.js"></script>
-		<script type="text/javascript" src="js/bootstrap.js"></script>
-	</body>
-</html>
+	<div class="row artikkel">
+		<?php Load_Article(); ?>
+	</div>
+</div>
+
+<?php include_once("html/footer.php"); ?>
